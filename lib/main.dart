@@ -28,8 +28,8 @@ class MyHomePage extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Despesas Pessoais'),
         ),
-        body: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+        body: ListView(
+            
             children: <Widget>[
               Container(
                 margin: EdgeInsets.all(5),

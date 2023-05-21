@@ -10,7 +10,8 @@ class TransactionList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Column(
+      height: 400,
+      child: ListView(
         children: transactions.map((tr) {
           return Card(
             child: Row(
