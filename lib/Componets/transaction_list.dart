@@ -75,7 +75,8 @@ class TransactionList extends StatelessWidget {
                             style: const TextStyle(color: Colors.grey),
                           ),
                           TextButton(
-                              onPressed: () => transactions.removeAt(0),
+                              onPressed: () =>
+                                  transactions.remove(transactions.length),
                               child: Text('remover'))
                         ],
                       )
